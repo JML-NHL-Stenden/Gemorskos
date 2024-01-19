@@ -1,6 +1,7 @@
 body {
-    background-color: #ffccff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFEAF1;
+    color: #A10F51;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,30 +10,35 @@ body {
     height: 100vh;
 }
 
-.login-container, .register-container {
-    background-color: #ffe6f2;
+.container {
+    background-color: #C76D7E;
     padding: 20px;
-    text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #E5679B;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
 button {
-    background-color: #ff66b2;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+    background-color: #A10F51;
+    color: #FFEAF1;
     cursor: pointer;
 }
 
-a {
-    color: #ff66b2;
-    text-decoration: none;
+button:hover {
+    background-color: #E5679B;
 }

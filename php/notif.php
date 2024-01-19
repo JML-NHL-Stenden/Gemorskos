@@ -48,7 +48,7 @@
 <body>
     <div class="container">
         <h1>Successfully Registered</h1>
-        <p>Thank you for registering with us!</p>
+        <p>Thank you for registering!</p>
         <button class="goback-button" onclick="goBack()">Go Back</button>
     </div>
 
